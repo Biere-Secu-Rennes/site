@@ -10,14 +10,14 @@ interface Props {
   author: string;
   pubDate: Date;
   headings: unknown;
-  description: string;
+  description: string[];
   title: string;
 }
 
 const { author, pubDate, headings, description, title } = Astro.props;
 ---
 
-<Layout title={title} description={description} ogImage={ogImage}>
+<Layout title={title} description={''} ogImage={ogImage}>
   <main class='p-6 lg:grid lg:grid-cols-3 flex justify-center'>
     <BlogSideBar headings={headings as any[]} />
     <BlogContent {pubDate} {author}>

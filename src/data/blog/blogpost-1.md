@@ -1,46 +1,35 @@
 ---
-title: Blogpost 1
-pubDate: 11/09/2022 14:25
-author: "Elian Van Cutsem"
+title: BSR 2
+pubDate: 2024-05-14T18:30:00Z
+author: "Bière Sécu Rennes"
 tags:
-  - JavaScript
-  - Astro
-  - UnoCSS
+  - Uzine
 imgUrl: '../../assets/astro.jpeg'
-description: Lorem markdownum longo os thyrso telum, continet servat fetus nymphae, vox nocte sedesque, decimo. Omnia esse, quam sive; conplevit illis indestrictus admovit dedit sub quod protectus, impedit non.
+description:
+  - "PHP filter chains: How to use it par remsio"
+  - C2 Active Monitoring - Collecting orders from Command and Control servers by impersonating an infected machine par xanhacks
+  - Découverte du groupe APT-C36 sur les réseaux d'une profession libérale réglementée par Jessie
+  - Degate, a tool for reverse engineering silicon chips par Dorian BachelotExploiting American Conquest for fun par tomtombinary
 ---
 
-## Deorum petiit ignis
+## Bière Sécu Rennes n°2
 
-Lorem markdownum longo os thyrso telum, continet servat fetus nymphae, *vox
-nocte sedesque*, decimo. Omnia esse, quam sive; conplevit illis indestrictus
-admovit dedit sub quod protectus, impedit non.
+> Mardi 14 mai à 18h30 à l'Uzine
 
-## Iovis late orbem Perseus sunt
+### Com
 
-Aras reperire, sui motis correpti coniunx Onetor amore ferire lacertis, petiit.
-Bis pallor et mecum me, igne patruelibus *tendebam*, vultu sterilique terruerat
-*tempore* medium aera **eadem Mittor**.
+Pour cette édition et suite à vos remarques, nous aurons la grande salle (100 places) au sous-sol du bar pour nous jusqu'à 21h30. Nous finirons ensuite la soirée au niveau du bar avec les courageux. La capacité de la salle nous permet d'ouvrir plus largement l'évenement cette fois-ci. N'hésitez pas à en parler à vos potes et à vous inscrire sur le framadate suivant pour nous donner une idée de l'audience : 
 
-- Non turba loca dederunt primordia ineamus Dictys
-- Tanti amat mundus sedula
-- Potuissent aetas parili coniuge se lumina breve
-- Tamen ille crepitantibus ulla coeperunt quibus iugulo
-- Pindusque solacia luctataque felix
+On a toujours des créneaux pour des rumps (20min max), n'hésitez pas à nous soumettre une idée à l'email suivant : bieresecurns@protonmail.com
 
-## Longum minus sic saepe
+### Ruumps
 
-Genu cupiens quoque: cum dolor: sollicitive cantu, et piae Leuconoe, huius non
-nil tuli Peleusque rauca. Et alvum cuncti Hippodamas meritis nec coniunx ausa,
-pete. Congestaque nisi nullus poena. Tanto cum, curvis vulnera quod optatis,
-trahens conplexa saepe.
+- PHP filter chains: How to use it par __remsio__
 
-Hominum quo. Signa germanaeque iuvat at feruntur precantibus corpus praebuerat
-excipit mixtaeque inferior, haec percepit regum: nec nec sit ferenti.
+- C2 Active Monitoring - Collecting orders from Command and Control servers by impersonating an infected machine par __xanhacks__
 
-## Geminas namque quod referitur argenteus aderat superstes
+- Découverte du groupe APT-C36 sur les réseaux d'une profession libérale réglementée par __Jessie__
 
-Insistere pugno. Cum morae vigilantibus dulces Cycnus: neque cum sororis.
+- Degate, a tool for reverse engineering silicon chips par Dorian BachelotExploiting American Conquest for fun par __tomtombinary__
 
-Hac Aestas solet docebo tandem tamquam omnis vitiantur mitte, vatis in animique
-infelix passimque. Superasset onus.
+[Téléchagez les slides](https://github.com/Biere-Secu-Rennes/BSR/tree/main/bsr2)

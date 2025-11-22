@@ -4,17 +4,17 @@ import { getCollection } from 'astro:content';
 export async function GET(context) {
   const blog = await getCollection('blog');
   return rss({
-    title: 'Brutal Blog',
-    description: 'Brutal is a theme for Astro',
+    title: 'Bière Sécu Rennes',
+    description: 'Événement Bière Sécu Renne',
     stylesheet: false,
     site: context.site,
     items: blog.map((post) => ({
       title: post.data.title,
+      description: post.data.description.join(' | '),
       pubDate: post.data.pubDate,
-      description: post.data.description,
       link: `/blog/${post.id}/`,
     })),
-    customData: '<language>en-us</language>',
-    canonicalUrl: 'https://brutal.elian.codes',
+    customData: '<language>fr-FR/language>',
+    canonicalUrl: 'https://bieresecu.bzh',
   });
 }
