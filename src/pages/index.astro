@@ -1,71 +1,14 @@
 ---
-import Layout from "@layouts/Default.astro";
-import RecentBlogPosts from "@components/generic/RecentBlogPosts.astro";
-// import MobileSocials from "@components/home/MobileSocials.astro";
-import { Button } from "@eliancodes/brutal-ui";
-import { Image } from "astro:assets";
-
-import logoImg from "src/assets/logo.png";
-import Card from "@components/Card.astro";
-
-const builtWith = [
-  { name: "Astro", url: "https://astro.build/" },
-  { name: "UnoCSS", url: "https://uno.antfu.me/" },
-  {
-    name: "Content Collections",
-    url: "https://docs.astro.build/en/guides/content-collections/",
-  },
-  { name: "RSS", url: "https://docs.astro.build/en/guides/rss/" },
-  {
-    name: "Sitemap",
-    url: "https://docs.astro.build/en/guides/integrations-guide/sitemap/",
-  },
-];
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/Hero.astro';
+import Agenda from '../components/Agenda.astro';
+import Partners from '../components/Partners.astro';
 ---
 
-<Layout
-  title="Home"
-  pageTitle="Bière Sécu Rennes | Home"
-  description="Bière Sécu Rennes, des rumps tous les 2 mois à Rennes."
->
-  <main class="bg-amber p-6">
-    <!-- <MobileSocials /> -->
-    <section id="about" class="grid md:grid-cols-8 gap-8 mt-4">
-      <h2 class="hidden">About Bière Sécu</h2>
-      <div class="col-span-3 row-span-2">
-        <Image
-          src={logoImg}
-          alt="Logo"
-          width={800}
-          height={400}
-          class="rounded h-full w-full object-contain"
-        />
-      </div>
-      <div class="col-span-5">
-        <Card className="bg-purple">
-          <div class="flex flex-col justify-between items-start gap-4">
-            <p class="mt-2 outfit text-xl md:text-3xl lg:text-5xl">
-              Des rumps tech' & un social<br />
-              Tous les 2 mois<br />
-              Au bar, ouvert à toustes
-            </p>
-            <Button target={"_self"} href="/blog/">
-              Nos évenements &rarr;
-            </Button>
-          </div>
-        </Card>
-      </div>
-      <div class="col-span-5">
-        <Card className="bg-cyan">
-          <h2 class="text-2xl md:text-4xl lg:text-6xl mb-8 dm-serif">
-            Prochain événement
-          </h2>
-          <p class="mt-2 outfit text-l md:text-2xl lg:text-4xl">
-            le 25 novembre à l'Uzine à partir de 18h30
-          </p>
-        </Card>
-      </div>
-    </section>
-    <RecentBlogPosts />
-  </main>
+<Layout title="Portfolio - Tu Nombre">
+	<main class="space-y-24 pb-24">
+		<Hero />
+		<Agenda />
+		<Partners />
+	</main>
 </Layout>
