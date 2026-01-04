@@ -1,0 +1,230 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="À propos - Bière Sécu Rennes">
+    <main class="max-w-4xl mx-auto px-4 py-12 space-y-16">
+        <!-- Header -->
+        <header class="text-center space-y-4">
+            <h1
+                class="text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary"
+            >
+                À propos
+            </h1>
+            <a
+                href="/"
+                class="inline-flex items-center text-primary hover:text-secondary transition-colors group"
+            >
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="mr-2 group-hover:-translate-x-1 transition-transform"
+                >
+                    <path d="m12 19-7-7 7-7"></path>
+                    <path d="M19 12H5"></path>
+                </svg>
+                Retour à l'accueil
+            </a>
+        </header>
+
+        <!-- L'Histoire -->
+        <section
+            class="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg border border-gray-100 dark:border-gray-700"
+        >
+            <h2
+                class="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-100 flex items-center gap-2"
+            >
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="text-primary"
+                >
+                    <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                    <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                </svg>
+                La petite histoire
+            </h2>
+            <div
+                class="prose dark:prose-invert max-w-none text-gray-600 dark:text-gray-300"
+            >
+                <p>
+                    Tout a commencé autour d'une bière (évidemment). Bière Sécu
+                    Rennes est né de l'envie de rassembler la communauté sécu
+                    rennaise dans un cadre informel.
+                </p>
+                <p class="mt-4">
+                    Pour la petite histoire, c'est suite à notre participation à
+                    un meetup <a
+                        href="https://www.defconparis.com/"
+                        class="text-primary hover:underline"
+                        target="_blank"
+                        rel="noopener noreferrer">Defcon Paris</a
+                    > en 2023 que nous avons décidé de créer un événement similaire
+                    à Rennes. Au début nous avions pensé l'appeler Black Bigoudène
+                    Rennes mais on a pas assumer la blague, on a donc repris le concept
+                    des Bière Sécu comme celui de
+                    <a
+                        href="https://x.com/BiereSecuLyon"
+                        class="text-primary hover:underline"
+                        target="_blank"
+                        rel="noopener noreferrer">Lyon</a
+                    > ou <a
+                        href="https://x.com/BiereSecu"
+                        class="text-primary hover:underline"
+                        target="_blank"
+                        rel="noopener noreferrer">Toulouse</a
+                    >.
+                </p>
+                <p class="mt-4">
+                    Après avoir fait une belle tournée des bars de Rennes pour
+                    en trouver un capable d'accueillir un tel événement, on a
+                    fini tomber sur l'Uzine qui nous a super bien accueilli et
+                    on a immédiatement lancé le premier événement le 18 mars
+                    2024 en petit commité car nous n'avions réservé que la
+                    petite salle de l'Uzine (celle qui se trouve derrière le
+                    bar). La première édition fut un grand succès car la salle
+                    était pleine à craquer.<br />
+                    C'est a partie de la que tout a commencé...
+                </p>
+            </div>
+        </section>
+
+        <!-- L'Équipe -->
+        <section class="grid md:grid-cols-2 gap-8">
+            <div
+                class="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg border border-gray-100 dark:border-gray-700"
+            >
+                <h2
+                    class="text-2xl font-bold mb-6 text-gray-900 dark:text-gray-100 flex items-center gap-2"
+                >
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="text-primary"
+                    >
+                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"
+                        ></path>
+                        <circle cx="9" cy="7" r="4"></circle>
+                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                    </svg>
+                    Les créateurs
+                </h2>
+                <ul class="space-y-4">
+                    <li class="flex items-center gap-4">
+                        <div
+                            class="w-12 h-12 bg-gray-100 dark:bg-gray-700 rounded-full flex items-center justify-center text-xl"
+                        >
+                            🍺
+                        </div>
+                        <div>
+                            <p
+                                class="font-bold text-gray-900 dark:text-gray-100"
+                            >
+                                Florian
+                            </p>
+                            <p class="text-sm text-gray-500 dark:text-gray-400">
+                                Co-fondateur
+                            </p>
+                        </div>
+                    </li>
+                    <li class="flex items-center gap-4">
+                        <div
+                            class="w-12 h-12 bg-gray-100 dark:bg-gray-700 rounded-full flex items-center justify-center text-xl"
+                        >
+                            🛡️
+                        </div>
+                        <div>
+                            <p
+                                class="font-bold text-gray-900 dark:text-gray-100"
+                            >
+                                Nathan
+                            </p>
+                            <p class="text-sm text-gray-500 dark:text-gray-400">
+                                Co-fondateur
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Crédits Logo -->
+            <div
+                class="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg border border-gray-100 dark:border-gray-700"
+            >
+                <h2
+                    class="text-2xl font-bold mb-6 text-gray-900 dark:text-gray-100 flex items-center gap-2"
+                >
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="text-primary"
+                    >
+                        <path d="m12 19 7-7 3 3-7 7-3-3z"></path>
+                        <path d="m18 13-1.5-7.5L2 2l3.5 14.5L13 18l5-11"></path>
+                        <path d="m2 2 7.586 7.586"></path>
+                        <circle cx="11" cy="11" r="2"></circle>
+                    </svg>
+                    Design & Logo
+                </h2>
+                <div class="flex flex-col items-center text-center">
+                    <p class="text-gray-600 dark:text-gray-300 mb-4">
+                        Notre magnifique logo a été réalisé par :
+                    </p>
+                    <p class="text-xl font-bold text-primary mb-2">
+                        Lucile BOULANGER
+                    </p>
+                    <!-- <a href="https://www.linkedin.com/in/lucile-boulangers/" class="text-sm text-gray-500 hover:text-primary transition-colors underline">Voir son portfolio (si dispo)</a> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Mentions Légales -->
+        <section
+            class="max-w-2xl mx-auto text-center pt-8 border-t border-gray-200 dark:border-gray-800"
+        >
+            <h3 class="text-lg font-bold mb-4 text-gray-900 dark:text-gray-100">
+                Mentions Légales
+            </h3>
+            <div class="text-sm text-gray-500 dark:text-gray-400 space-y-2">
+                <p>Bière Sécu Rennes est un événement à but non lucratif.</p>
+                <p>
+                    L'abus d'alcool est dangereux pour la santé, à consommer
+                    avec modération.
+                </p>
+                <p>
+                    &copy; {new Date().getFullYear()} Bière Sécu Rennes. Tous droits
+                    réservés.
+                </p>
+            </div>
+        </section>
+    </main>
+</Layout>
