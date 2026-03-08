@@ -1,6 +1,15 @@
 ---
 const events = [
     {
+        date: "21 Avril 2026",
+        title: "Bière Sécu Rennes #11 : 21 avril 18h30",
+        year: "2026",
+        location: "L'Uzine, 13 quai Lamennais (République)",
+        locationUrl: "https://www.openstreetmap.org/node/1969738755",
+        description: "Programme à constituer ! Envoyez vos propositions par mail :)",
+        talks: []
+    },
+    {
         date: "27 Janvier 2026",
         title: "Bière Sécu Rennes #10 : 27 janvier 18h30",
         year: "2026",
@@ -44,8 +53,8 @@ const events = [
     },
 ];
 
-const nextEvent = null; //events[0];
-const pastEvents = events; //events.slice(1);
+const nextEvent = events[0];
+const pastEvents = events.slice(1);
 ---
 
 <section class="py-16 px-4 max-w-4xl mx-auto space-y-20">
